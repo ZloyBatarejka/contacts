@@ -37,7 +37,7 @@ const Form: React.FC = () => {
     setIcq(Number(event.target.value));
   };
   const checkDisabled = (): void => {
-    if (name.length > 1 && String(icq).length > 1) {
+    if (name.length > 0 && String(icq).length > 0) {
       if (icq && !isNaN(icq) && isFinite(icq)) {
         setDisabled(false);
       }
