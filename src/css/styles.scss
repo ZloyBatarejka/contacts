@@ -1,0 +1,17 @@
+@import "./container";
+@import "./form";
+@import "./contacts";
+@import "./auth";
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(246, 246, 255);
+}
+.btnLogout {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}

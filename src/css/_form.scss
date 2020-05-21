@@ -1,0 +1,47 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  &__search {
+    width: 95%;
+    margin: 0px;
+    margin-top: 2px;
+  }
+  &__plus {
+    width: 5%;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i {
+      cursor: pointer;
+    }
+  }
+  &__add {
+    width: 300px;
+    height: 220px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 50px;
+    span {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+}

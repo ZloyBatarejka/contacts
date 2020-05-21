@@ -1,0 +1,32 @@
+.contacts {
+  list-style: none;
+  margin-top: 20px;
+  padding: 15px;
+}
+.contact {
+  margin-top: 10px;
+  padding: 30px 15px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  &__body {
+    width: 89%;
+    display: flex;
+    align-items: center;
+    height: calc(1.5em + 0.75rem + 2px);
+    div {
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  }
+  &__controls {
+    display: flex;
+    width: 9%;
+    justify-content: space-around;
+    align-items: center;
+    i {
+      cursor: pointer;
+    }
+  }
+}

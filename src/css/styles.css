@@ -1,0 +1,176 @@
+.container {
+  max-width: 1000px;
+  padding: 5px;
+  margin-top: 100px;
+  border-radius: 5px;
+  background: white;
+  -webkit-box-shadow: 2px 3.8px 5.3px rgba(69, 158, 93, 0.2);
+          box-shadow: 2px 3.8px 5.3px rgba(69, 158, 93, 0.2);
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 40px;
+}
+
+.form__search {
+  width: 95%;
+  margin: 0px;
+  margin-top: 2px;
+}
+
+.form__plus {
+  width: 5%;
+  color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__plus i {
+  cursor: pointer;
+}
+
+.form__add {
+  width: 300px;
+  height: 220px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.form__add span {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contacts {
+  list-style: none;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.contact {
+  margin-top: 10px;
+  padding: 30px 15px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact__body {
+  width: 89%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: calc(1.5em + 0.75rem + 2px);
+}
+
+.contact__body div {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.contact__controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 9%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__controls i {
+  cursor: pointer;
+}
+
+.mmodal {
+  margin: 0 auto;
+  margin-top: 50px;
+  z-index: 155;
+  background: white;
+  width: 300px;
+  height: 400px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.mmodal__title h2 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.mmodal__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #f6f6ff;
+}
+
+.btnLogout {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=styles.css.map */
